@@ -2,6 +2,7 @@
 
 	* c.texi: Specify @codequoteundirected on and @codequotebacktick on.
 	(Unions, Structures): Unions are also compond types.
+	(Unicode Character Codes): Minor clarification.
 
 2024-01-30  Richard Stallman  <rms@gnu.org>
 

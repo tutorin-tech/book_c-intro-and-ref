@@ -4808,7 +4808,7 @@ UTF-16 for purposes too specialized to explain here.
 
 Codes less than 00A0 are likewise invalid in universal character
 names, and likewise cause errors, except for 0024 (@samp{$}), 0040
-(@samp{@@}), and 0060 (@samp{`}).  Character codes which can't be
+(@samp{@@}), and 0060 (@samp{`}).  Characters which can't be
 represented with universal character names can be specified with octal
 or hexadecimal escape sequences (@pxref{Character Constants}).
 
