@@ -5867,8 +5867,8 @@ appropriate unsigned integer type.
 A @dfn{structure} is a user-defined data type that holds various
 @dfn{fields} of data.  Each field has a name and a data type specified
 in the structure's definition.  Because a structure combines various
-fields, each of its own type, we call a structure type a
-@dfn{compound type}.
+fields, each of its own type, we call a structure type a @dfn{compound
+type}.  (Union types are also compound types; @pxef{Unions}.)
 
 Here we define a structure suitable for storing a linked list of
 integers.  Each list item will hold one integer, plus a pointer
@@ -6646,7 +6646,9 @@ assignment would be invalid because the left operand is not an lvalue.
 
 A @dfn{union type} defines alternative ways of looking at the same
 piece of memory.  Each alternative view is defined with a data type,
-and identified by a name.  A union definition looks like this:
+and identified by a name.  Because a union combines various types, it
+is considered a @dfn{compound type}, like structures
+(@pxref{Structures}).  A union definition looks like this:
 
 @example
 union @var{name}

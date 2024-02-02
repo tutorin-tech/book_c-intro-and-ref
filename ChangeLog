@@ -1,6 +1,7 @@
 2024-02-01  Richard Stallman  <rms@gnu.org>
 
 	* c.texi: Specify @codequoteundirected on and @codequotebacktick on.
+	(Unions, Structures): Unions are also compond types.
 
 2024-01-30  Richard Stallman  <rms@gnu.org>
 
