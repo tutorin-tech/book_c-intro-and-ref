@@ -1,3 +1,7 @@
+2024-02-01  Richard Stallman  <rms@gnu.org>
+
+	* c.texi: Specify @codequoteundirected on and @codequotebacktick on.
+
 2024-01-30  Richard Stallman  <rms@gnu.org>
 
 	* c.texi (Lvalues): Dereferencing fn ptr is not an lvalue.
