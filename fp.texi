@@ -871,7 +871,7 @@ exact, and unwanted rounding errors are introduced.
 As computers usually represent numbers in a base other than 10,
 numbers often must be converted to and from different bases, and
 rounding errors can occur during conversion.  This problem is solved
-in C using hexademical floating-point constants.  For example,
+in C using hexadecimal floating-point constants.  For example,
 @code{+0x1.fffffcp-1} is the number that is the IEEE 754 32-bit value
 closest to, but below, @code{1.0}. The significand is represented as a
 hexadecimal fraction, and the @emph{power of two} is written in
