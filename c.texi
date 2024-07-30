@@ -3599,8 +3599,8 @@ too is not really associative.  However, the GCC option
 order of calculation when an associative operation (associative in
 exact mathematics) combines several operands.  The option takes effect
 when compiling a module (@pxref{Compilation}).  Changing the order
-of association can enable GCC to optiimize the floating-point
-ooerations better.
+of association can enable GCC to optimize the floating-point
+operations better.
 
 In all these examples, the four function calls can be done in any
 order.  There is no right or wrong about that.
@@ -3684,7 +3684,7 @@ x = x++
 @noindent
 @code{x} will certainly be incremented but the incremented value may
 be replaced with the old value.  That's because the incrementation and
-the assignment may occur in either oder.  If the incrementation of
+the assignment may occur in either order.  If the incrementation of
 @code{x} occurs after the assignment to @code{x}, the incremented
 value will remain in place.  But if the incrementation happens first,
 the assignment will put the not-yet-incremented value back into
@@ -4948,7 +4948,7 @@ Here's how to determine the number of elements in an array
 The expression @code{sizeof arr} gives the size of the array, not
 the size of a pointer to an element.  However, if @var{expression} is
 a function parameter that was declared as an array, that
-variable really has a pointer type (@pxref{Array Parm Pointer}), so
+variable really has a pointer type (@pxref{Array Params are Ptrs}), so
 the result is the size of that pointer.
 
 @item sizeof (@var{type})
@@ -6622,7 +6622,7 @@ struct record r1, r2;
 @end example
 
 @noindent
-structure assigment such as @code{r1 = r2} copies array fields'
+structure assignment such as @code{r1 = r2} copies array fields'
 contents just as it copies all the other fields.
 
 This is the only way in C that you can operate on the whole contents
@@ -10406,12 +10406,12 @@ them.  So they cannot be passed as arguments like other values.
 a special way.
 
 @menu
-* Array Parm Pointer::
+* Array Params are Ptrs::
 * Passing Array Args::
 * Array Parm Qualifiers::
 @end menu
 
-@node Array Parm Pointer
+@node Array Params are Ptrs
 @subsubsection Array parameters are pointers
 
 Declaring a function parameter variable as an array really gives it a
