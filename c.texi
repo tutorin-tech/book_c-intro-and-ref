@@ -5868,7 +5868,7 @@ A @dfn{structure} is a user-defined data type that holds various
 @dfn{fields} of data.  Each field has a name and a data type specified
 in the structure's definition.  Because a structure combines various
 fields, each of its own type, we call a structure type a @dfn{compound
-type}.  (Union types are also compound types; @pxef{Unions}.)
+type}.  (Union types are also compound types; @pxref{Unions}.)
 
 Here we define a structure suitable for storing a linked list of
 integers.  Each list item will hold one integer, plus a pointer
