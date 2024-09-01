@@ -64,8 +64,8 @@ modify this GNU manual.''
 @sp 2
 @ignore
 WILL BE Published by the Free Software Foundation @*
-51 Franklin Street, Fifth Floor @*
-Boston, MA 02110-1301 USA @*
+31 Milk St # 960789 @*
+Boston, MA 02110 USA @*
 ISBN ?-??????-??-?
 @end ignore
 
@@ -5687,7 +5687,7 @@ Statement}).  Used in this way, it immediately exits the surrounding
 @code{for} statement.
 
 @code{*p++} uses postincrement (@code{++};
-@pxref{Postincrement/Postdecrement}) on the pointer @code{p}.  that
+@pxref{Postincrement/Postdecrement}) on the pointer @code{p}.  That
 expression parses as @code{*(p++)}, because a postfix operator always
 takes precedence over a prefix operator.  Therefore, it dereferences
 the entering value of @code{p}, then increments @code{p} afterwards.
@@ -6636,7 +6636,7 @@ r1.data = r2.data;
 
 @noindent
 would convert the array objects (as always) to pointers to the zeroth
-elements of the arrays (of type @code{struct record *}), and the
+elements of the arrays (of type @code{int *}), and the
 assignment would be invalid because the left operand is not an lvalue.
 
 @node Unions
