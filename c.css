@@ -1,0 +1,13 @@
+* {
+    white-space: normal;
+    word-break: break-word;
+}
+
+pre {
+    font-size: 0.98em;
+    white-space: pre-wrap;
+}
+
+.example-preformatted {
+    margin-left: -50px;
+}
