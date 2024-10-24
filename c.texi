@@ -88,6 +88,10 @@ Cover art by J. Random Artist
 @top Preface
 @end iftex
 
+@node Preface
+@unnumbered Preface
+@cindex preface
+
 This manual explains the C language for use with the GNU Compiler
 Collection (GCC) on the GNU/Linux operating system and other systems.
 We refer to this dialect as GNU C.  If you already know C, you can use
