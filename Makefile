@@ -28,6 +28,9 @@ c.html.d: $(SOURCES)
 c.txt: $(SOURCES)
 	makeinfo --plaintext $< > $@
 
+c.epub:
+	texi2any c.texi --epub3 --css-include=c.css
+
 clean:
 	rm -f c.dvi c.pdf c.info c.info-* c.doc c.txt c.html
 	rm -rf c.html.d
